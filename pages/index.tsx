@@ -3,7 +3,7 @@ import Head from "next/head";
 import Feed from "../components/Feed";
 import Sidebar from "../components/Sidebar";
 import Widgets from "../components/Widgets";
-import { Tweet } from "../typings";
+import { Tweet } from "../interface/typings";
 import { fetchTweets } from "../utils/fetchTweets";
 // ssr = server side rendering
 // Renderizado del lado del servidor

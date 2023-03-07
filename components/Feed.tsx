@@ -1,7 +1,7 @@
-import React from "react";
 import { ArrowPathIcon } from "@heroicons/react/24/outline";
+import { Tweet } from '../interface'
+import React from "react";
 import TweetBox from "./TweetBox"
-import { Tweet } from '../typings'
 import TweetComponent from "../components/Tweets"
 
 interface Props {

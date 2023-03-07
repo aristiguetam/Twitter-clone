@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { client } from "../../sanity";
-import { Tweet } from "../../typings";
+import { Tweet } from "../../interface";
 import { groq } from "next-sanity";
 
 const feedQuery = groq`
